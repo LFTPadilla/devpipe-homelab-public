@@ -6,10 +6,10 @@ services:
     ports:
       - 8081:8080
     volumes:
-      - ./stirling-data/tessdata:/usr/share/tessdata
-      - ./stirling-data/configs:/configs
-      - ./stirling-data/logs:/logs
-      - ./stirling-data/customFiles:/customFiles
-      - ./stirling-data/pipeline:/pipeline
+      - ./stirling-data2/tessdata:/usr/share/tessdata
+      - ./stirling-data2/configs:/configs
+      - ./stirling-data2/logs:/logs
+      - ./stirling-data2/customFiles:/customFiles
+      - ./stirling-data2/pipeline:/pipeline
     env_file:
       - .env
