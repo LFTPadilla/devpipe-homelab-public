@@ -1,0 +1,10 @@
+# Excluir artefactos regenerables y cachés comunes
+- **/thumbs/**
+- **/encoded-video/**
+- **/cache/**
+- **/tmp/**
+- **/.cache/**
+- **/.thumbnails/**
+- **/@eaDir/**
+# Incluir todo lo demás
++ **

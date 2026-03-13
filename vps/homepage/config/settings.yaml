@@ -1,0 +1,43 @@
+title: homelab
+theme: dark
+color: zinc
+headerStyle: boxed
+target: _blank
+hideVersion: true
+useEqualHeights: true
+
+layout:
+  Photos:
+    icon: mdi-camera
+    style: row
+    columns: 2
+
+  Business:
+    icon: mdi-briefcase
+    style: row
+    columns: 2
+
+  AI & Productivity:
+    icon: mdi-brain
+    style: row
+    columns: 2
+
+  Tools:
+    icon: mdi-wrench
+    style: row
+    columns: 2
+
+  Mini PC:
+    icon: mdi-desktop-tower
+    style: row
+    columns: 3
+
+  Monitoring:
+    icon: mdi-chart-line
+    style: row
+    columns: 2
+
+  Infrastructure:
+    icon: mdi-server-network
+    style: row
+    columns: 2

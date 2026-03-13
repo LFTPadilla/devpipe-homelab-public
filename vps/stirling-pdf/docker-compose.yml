@@ -1,0 +1,15 @@
+services:
+  stirling-pdf:
+    image: stirlingtools/stirling-pdf:latest
+    container_name: stirling-pdf
+    restart: unless-stopped
+    ports:
+      - 8081:8080
+    volumes:
+      - ./stirling-data/tessdata:/usr/share/tessdata
+      - ./stirling-data/configs:/configs
+      - ./stirling-data/logs:/logs
+      - ./stirling-data/customFiles:/customFiles
+      - ./stirling-data/pipeline:/pipeline
+    env_file:
+      - .env

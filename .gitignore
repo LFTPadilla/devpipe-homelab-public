@@ -1,0 +1,80 @@
+# === SECRETS & CREDENTIALS ===
+.env
+*.env
+rclone.conf
+*.pem
+*.key
+*.p12
+*.pfx
+id_ed25519
+id_rsa
+secretkey.txt
+
+# === DATABASE FILES ===
+*.db
+*.db-shm
+*.db-wal
+*.sql.gz
+*.sqlite
+*.mv.db
+*.trace.db
+postgres/
+beszel_data/
+beszel_agent_data/
+
+# === DATA / MEDIA / UPLOADS ===
+**/data/
+**/files/
+**/upload/
+**/uploads/
+**/library/
+**/thumbs/
+**/profile/
+**/encoded-video/
+**/backups/db.sql.gz
+**/backups/filestore.tgz
+**/volumes/
+stirling-data/
+stirling-data2/
+uptime-kuma-data/
+model-cache/
+
+# === LOGS ===
+*.log
+logs/
+
+# === ODOO SPECIFIC ===
+**/odoo/config/
+**/odoo/addons/
+**/odoo/backups/
+**/odoo/odoo-19/
+**/odoo/data/
+
+# === KESTRA SPECIFIC ===
+kestra/application.yaml
+kestra/application.yml
+**/application.yaml
+**/application.yml
+
+# === RCLONE ===
+rclone/.config/
+rclone-sync.log
+
+# === MISC / OLD STRUCTURE ===
+*.zip
+aws/
+awscliv2.zip
+Media.zip
+Note10.zip
+docker-bad.yml
+
+# === OLD TOP-LEVEL FOLDERS (pre-reorganization) ===
+/beszel/
+/immich/
+/immich-luis/
+/kestra/
+/odoo-moliendaquindiana/
+/rclone/
+/tools/
+/uptimekuma/
+/watchtower/

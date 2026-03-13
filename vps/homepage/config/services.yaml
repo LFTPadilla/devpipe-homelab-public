@@ -1,0 +1,81 @@
+- Photos:
+  - Immich — Felipe:
+      icon: immich.png
+      href: https://immich.yourdomain.com
+      description: Personal photo library
+      widget:
+        type: customapi
+        url: http://<pi-tailscale-ip>:2283/api/server/statistics
+        headers:
+          x-api-key: YOUR_IMMICH_API_KEY
+        mappings:
+          - field: photos
+            label: Photos
+            format: number
+          - field: videos
+            label: Videos
+            format: number
+  - Immich — Luis:
+      icon: immich.png
+      href: https://immich-luis.yourdomain.com
+      description: Luis photo library
+
+- Business:
+  - Odoo:
+      icon: odoo.png
+      href: https://odoo.yourdomain.com
+      description: ERP / online shop
+
+- AI & Productivity:
+  - AnythingLLM:
+      icon: mdi-robot-happy
+      href: https://llm.yourdomain.com
+      description: AI assistant
+  - Linkding:
+      icon: linkding.png
+      href: https://links.yourdomain.com
+      description: Bookmark manager
+
+- Tools:
+  - Stirling PDF:
+      icon: stirling-pdf.png
+      href: https://pdf.yourdomain.com
+      description: PDF editor & converter
+
+- Monitoring:
+  - Uptime Kuma:
+      icon: uptime-kuma.png
+      href: https://uptime.yourdomain.com
+      description: Service uptime
+      widget:
+        type: uptimekuma
+        url: http://uptime-kuma:3001
+        slug: your-slug
+  - Beszel:
+      icon: beszel.png
+      href: https://beszel.yourdomain.com
+      description: System metrics
+
+- Mini PC:
+  - Home Assistant:
+      icon: home-assistant.png
+      href: https://home.yourdomain.com
+      description: Home automation
+  - Proxmox:
+      icon: proxmox.png
+      href: https://proxmox.yourdomain.com
+      description: Hypervisor
+  - Nextcloud:
+      icon: nextcloud.png
+      href: https://nextcloud_old.yourdomain.com
+      description: File storage
+
+- Infrastructure:
+  - Pangolin:
+      icon: mdi-tunnel
+      href: https://pangolin.yourdomain.com
+      description: Tunnel manager
+  - Dozzle:
+      icon: dozzle.png
+      href: https://dozzle.yourdomain.com
+      description: Container manager

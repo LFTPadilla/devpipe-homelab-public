@@ -1,0 +1,6 @@
+kestra:
+  ai:
+    type: "gemini"
+    gemini:
+      api-key: "YOUR_GEMINI_API_KEY"
+      model-name: gemini-2.5-flash
