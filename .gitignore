@@ -68,6 +68,15 @@ Media.zip
 Note10.zip
 docker-bad.yml
 
+# === HOMEPAGE LIVE CONFIGS (contain credentials/personal data) ===
+vps/homepage/config/services.yaml
+vps/homepage/config/bookmarks.yaml
+vps/homepage/config/custom.css
+vps/homepage/config/custom.js
+vps/homepage/config/docker.yaml
+vps/homepage/config/kubernetes.yaml
+vps/homepage/config/proxmox.yaml
+
 # === OLD TOP-LEVEL FOLDERS (pre-reorganization) ===
 /beszel/
 /immich/
